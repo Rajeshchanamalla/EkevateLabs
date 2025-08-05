@@ -1,0 +1,47 @@
+From: "Secure Bank" <support@secure-bank.com>
+Reply-To: security-team@verify-now.example
+Return-Path: bounce@malicious-example.com
+To: user@example.com
+Subject: Urgent: Verify your Secure Bank Account NOW
+Date: Tue, 05 Aug 2025 09:05:00 +0000
+Message-ID: <12345.abcdef@mail.example>
+Received: from unknown (HELO mail.example) (203.0.113.45)
+    by mailbox.securebank.com with SMTP; Tue, 05 Aug 2025 09:04:50 +0000
+Received: from [198.51.100.23] (unknown [198.51.100.23])
+    by mail.example with SMTP; Tue, 05 Aug 2025 09:04:40 +0000
+Authentication-Results: mail.example; spf=fail (domain of secure-bank.com does not designate 198.51.100.23 as permitted sender) smtp.mailfrom=support@secure-bank.com; dkim=none; dmarc=fail
+
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="BOUNDARY123"
+
+--BOUNDARY123
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Customer,
+
+We detected suspicious activity on your Secure Bank account. You must verify your account immediately to avoid suspension.
+
+Click the link below to verify:
+http://secure-bank.verify-account.example/login?user=12345
+
+Or copy and paste the following link into your browser:
+http://198.51.100.23/verify?u=12345
+
+If you do not verify within 24 hours your account will be suspended.
+
+Sincerely,
+Secure Bank Security Team
+
+--BOUNDARY123
+Content-Type: text/html; charset="UTF-8"
+
+<html>
+  <body>
+    <p>Dear Customer,</p>
+    <p>We detected <b>unauthorized activity</b> on your Secure Bank account. Please <a href="http://secure-bank.verify-account.example/login?user=12345">Verify your account</a> immediately to avoid suspension.</p>
+    <p>If the link does not work, use this URL: <a href="http://198.51.100.23/verify?u=12345">http://198.51.100.23/verify?u=12345</a></p>
+    <p>Regards,<br/>Secure Bank Security Team</p>
+  </body>
+</html>
+
+--BOUNDARY123--
