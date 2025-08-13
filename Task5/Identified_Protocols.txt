@@ -1,0 +1,23 @@
+Identified Protocols:-
+
+DNS
+Example packet: Query for www.google.com.
+
+HTTP
+Example packet: GET request to elevatelabs.com.
+
+ICMP
+Example packet: Echo request/reply from ping google.com.
+
+
+Packet Details Example:-
+
+Protocol: DNS
+Source IP: 10.0.2.15
+Destination IP: 8.8.8.8
+Info: Standard query A www.google.com
+
+Protocol: ICMP
+Source IP: 10.0.2.15
+Destination IP: 142.250.193.174
+Info: Echo (ping) request

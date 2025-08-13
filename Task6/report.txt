@@ -1,0 +1,39 @@
+Create multiple passwords with varying complexity
+
+	rajesh
+	Rajesh@2025
+	R@jE$h_2025!Secure
+
+Feedback of each passwords
+	
+	rajesh - 
+		Score: 8% 
+		Complexity: Very Weak
+	Rajesh202 - 
+		Score: 71% 
+		Complexity: Strong
+	R@jE$h_2025!Secure - 
+		Score: 100% 
+		Complexity: Very Strong
+
+Best practices learned:
+
+	Minimum length: 12 characters
+	Include uppercase, lowercase, numbers, symbols
+	Avoid dictionary words, names, or dates
+	Use passphrases or random generators
+	Do not reuse passwords across accounts
+
+Researched common password attacks:
+
+	Brute Force Attack – tries all possible combinations
+	Dictionary Attack – uses predefined lists of common passwords
+	Credential Stuffing – uses stolen credentials from other sites
+
+Summarize how password complexity affects security:
+
+	Password complexity directly increases security by making passwords harder for attackers to guess or crack.
+	Longer passwords exponentially increase the number of possible combinations, making brute-force attacks much slower.
+	Mixing uppercase, lowercase, numbers, and symbols adds variety, which defeats simple dictionary attacks.
+	Avoiding common words and patterns prevents attackers from using precompiled password lists.
+	Random and unique passwords reduce the risk from credential stuffing attacks, where leaked passwords are reused.

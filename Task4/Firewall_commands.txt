@@ -1,0 +1,56 @@
+Command:-
+sudo ufw status             
+
+Output:-
+Status: active
+
+Command:-
+sudo ufw status verbose     
+
+Output:-
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+Command:-
+sudo ufw deny 23/tcp        
+
+Ouput:-
+Rule added
+Rule added (v6)
+
+Command:-
+telnet 127.0.0.1 23
+
+Output:-
+Trying 127.0.0.1...
+telnet: Unable to connect to remote host: Connection refused
+
+Command:-
+sudo ufw allow 22/tcp
+
+Output:-
+Rule added
+Rule added (v6)
+
+Command:-
+sudo ufw delete deny 23/tcp
+
+Output:-
+Rule deleted
+Rule deleted (v6)
+
+command:-
+sudo ufw status verbose
+
+Output:-
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW IN    Anywhere                  
+22/tcp (v6)                ALLOW IN    Anywhere (v6)
